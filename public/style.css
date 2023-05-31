@@ -603,8 +603,21 @@ a:hover {
 .sunday .div1:hover {
   background-color: #62b5bb;
 }
-.check-box {
+.last-div{
   padding: 50px 0px 0 40px;
+}
+.last-div .div-1{
+  display: flex;
+  align-items: center;
+}
+.square{
+  width: 18px;
+  height: 18px;
+  background-color: #fff;
+  margin-right: 7px;
+}
+.square-2{
+  background-color: #A8D0D3;
 }
 input[type="checkbox"] {
   margin-right: 5px;
@@ -728,15 +741,12 @@ input[type="checkbox"] {
   .sunday .t-head {
     height: 70px;
   }
-  .check-box {
+  .last-div {
     padding: unset;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 90px;
-  }
-  input[type="checkbox"] {
-    margin-right: 5px;
   }
 }
 
@@ -858,16 +868,14 @@ input[type="checkbox"] {
   .sunday .t-head {
     height: 70px;
   }
-  .check-box {
+  .last-div {
     padding: unset;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 90px;
   }
-  input[type="checkbox"] {
-    margin-right: 5px;
-  }
+
 }
 @media (min-width: 250px) and (max-width: 374px) {
   body {
@@ -993,17 +1001,17 @@ input[type="checkbox"] {
   .sunday .t-head {
     height: 70px;
   }
-  .check-box {
+  .last-div {
     padding: unset;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     height: 90px;
   }
-  input[type="checkbox"] {
+  .square{
     margin-right: 2px;
   }
-  label {
+  .last-div p {
     font-size: 12px;
   }
 }
