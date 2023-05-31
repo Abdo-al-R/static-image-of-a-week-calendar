@@ -49,8 +49,9 @@ body {
   height: 100vh;
   background: url("../images/ice.jpg");
   background-size: cover;
-  display: grid;
-  place-items: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   color: white;
 }
 section {
