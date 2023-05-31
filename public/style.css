@@ -97,7 +97,6 @@ section {
   align-items: center;
   justify-content: center;
   text-align: center;
-  border-right: #464646 0.031rem solid;
   border-radius: 0 0 0 5px;
 }
 .tuesday-1 .t-body:hover {
@@ -151,6 +150,8 @@ a:hover {
   text-align: center;
   border: #464646 0.031rem solid;
   border-top: none;
+  border-bottom: none;
+  
 }
 .tuesday-2 div:nth-child(2):hover {
   background-color: #62b5bb;
@@ -271,6 +272,10 @@ a:hover {
   text-align: center;
   padding: 0 10px;
   background-color: #a8d0d3;
+  border-top: #464646 0.031rem solid;
+
+}
+.wednesday .div4:nth-child(2) {
   border: #464646 0.031rem solid;
 }
 .wednesday .div4:hover {
@@ -363,6 +368,8 @@ a:hover {
   align-items: center;
   text-align: center;
   justify-content: center;
+  border-left: #464646 0.031rem solid;
+
 }
 .thursday .div3:hover {
   background-color: #fcfdd5;
@@ -590,6 +597,8 @@ a:hover {
   text-align: center;
   justify-content: center;
   border: #464646 0.031rem solid;
+  border-left: none;
+
 }
 .sunday .div1:hover {
   background-color: #62b5bb;
